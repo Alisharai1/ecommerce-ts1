@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS contact_details;
+DROP TABLE IF EXISTS users;
+DROP TYPE IF EXISTS user_enum;
