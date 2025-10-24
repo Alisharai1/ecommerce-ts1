@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc",
     "start:prod": "node dist/index.js",
     "start": "ts-node src/index.ts",
@@ -16,13 +16,17 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.9.1",
     "db-migrate": "^0.11.14",
+    "db-migrate-pg": "^1.5.2",
+    "jest": "^30.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "db-migrate-pg": "^1.5.2"
+    "ts-jest": "^29.4.5"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "yup": "^1.7.1"
   }
 }

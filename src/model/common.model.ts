@@ -1,0 +1,1 @@
+export type commonMetaData = { id: string, createdAt: Date, updatedAt: Date }
